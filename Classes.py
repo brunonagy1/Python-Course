@@ -8,3 +8,6 @@ class Person():
 p1=Person("Bruno",24)
 print(p1.info())
         
+
+p2=Person("A",45)
+print(p2.info())
