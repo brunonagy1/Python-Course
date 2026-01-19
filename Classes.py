@@ -11,3 +11,6 @@ print(p1.info())
 
 p2=Person("A",45)
 print(p2.info())
+
+p3=Person("B",15)
+print(p3.info())
