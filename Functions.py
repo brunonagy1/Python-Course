@@ -24,3 +24,12 @@ def sum_quadratic(*args):
         return s2
     else:
         return False
+    
+def sum_cubic(*args):
+    if len(args)>0:
+        s3=0
+        for arg in args:
+            s3+=arg**3
+        return s3
+    else:
+        return False
