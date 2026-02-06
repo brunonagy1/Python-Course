@@ -12,3 +12,14 @@ def product_arg(*args):
         return p
     else:
         return False
+def dec1(func):
+    def wrapper(s:str)->str:
+        return func(s).upper()
+    return wrapper
+
+@dec1
+def f1(s:str)->str:
+    return s+"n"
+
+print(f1("Bruno"))
+
