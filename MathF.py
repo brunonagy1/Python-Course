@@ -29,3 +29,4 @@ def sara(y:float)->float:
 print(number(5))
 print(sara(10))
 print(1)
+
