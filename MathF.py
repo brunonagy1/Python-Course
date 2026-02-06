@@ -12,3 +12,19 @@ def product_arg(*args):
         return p
     else:
         return False
+    
+def decorator(func):
+    def wrapper(x:int)->int:
+        return func(x)*2
+    return wrapper
+
+@decorator
+def number(y:int)->int:
+    return 2*y
+
+@decorator
+def sara(y:float)->float:
+    return 3*y
+
+print(number(5))
+print(sara(10))
